@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/fragInstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Painting fragment"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <GridView
+        android:id="@+id/installation_bss"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:numColumns="2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"/>
+
+
+</RelativeLayout>

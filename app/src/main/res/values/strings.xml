@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Live-Cleanliness</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <array name="options">
+        <item></item>
+        <item>House</item>
+        <item>Shop</item>
+        <item>Apartment</item>
+    </array>
+
+    <array name="time">
+        <item>7h:00 a.m</item>
+        <item>8h:00 a.m</item>
+        <item>9h:00 a.m</item>
+        <item>10h:00 a.m</item>
+        <item>11h:00 a.m</item>
+        <item>12h:00 p.m</item>
+        <item>1h:00 p.m</item>
+        <item>2h:00 p.m</item>
+        <item>3h:00 p.m</item>
+        <item>4h:00 p.m</item>
+        <item>5h:00 p.m</item>
+        <item>6h:00 p.m</item>
+    </array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

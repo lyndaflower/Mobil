@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterBusiness">
+
+    <LinearLayout
+        android:id="@+id/whole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_register"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="REGISTER BUSINESS"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whole"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#966AE4"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/bussName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/imageDesc"
+
+            android:paddingTop="10dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#966AE4"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/bussEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/imageTime"
+            android:paddingTop="10dp" />
+
+        <!--                <Spinner-->
+        <!--                    android:id="@+id/spinner"-->
+        <!--                    android:layout_width="20dp"-->
+        <!--                    android:layout_height="20dp"-->
+        <!--                    android:layout_marginLeft="233dp"-->
+        <!--                    android:layout_toRightOf="@+id/imageTime" />-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="location "
+            android:layout_marginLeft="0dp"
+            android:textColor="#966AE4"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/bussLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/imageLoc"
+            android:paddingTop="20dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/unit"
+        android:textColor="#ffff"
+        android:layout_toRightOf="@+id/imageButton"
+        android:text="Send" />
+
+
+</RelativeLayout>

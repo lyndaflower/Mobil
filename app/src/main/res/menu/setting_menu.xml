@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group>
+    <item
+        android:title="Installation and Repairs" />
+    <item
+        android:title="Installation and Repairs" />
+    <item
+        android:title="Installation and Repairs" />
+    <item
+        android:title="Installation and Repairs" />
+
+</group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Installation"
+
+            android:title="Installation and Repairs" />
+        <item
+            android:id="@+id/nav_clean"
+
+            android:title="Cleaning" />
+        <item
+            android:id="@+id/nav_wellness"
+
+            android:title="Wellness and Care" />
+        <item
+            android:id="@+id/nav_painting"
+
+            android:title="Painting" />
+        <item
+            android:id="@+id/nav_transport"
+
+            android:title="Transport" />
+    </group>
+    <item android:title="Tell us" android:color="#FDF8FCFC">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="help" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate Review" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_backgroung"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/animText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--                <ImageView-->
+        <!--                    android:layout_width="152dp"-->
+        <!--                    android:layout_height="152dp"-->
+        <!--                    android:background="@drawable/ic_incandescent_24dp" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/explore"
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="MOBIL"
+            android:layout_marginLeft="50dp"
+            android:textColor="#2E5C28"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Cleanliness is indeed next to godliness"
+            android:textAllCaps="true"
+            android:textColor="#77BAD8"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Get to know us"
+            android:textColor="#C99E02"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="12dp"
+            android:text=""
+            android:textColor="#FF9800"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/text"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_incandescent_24dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#0B2D35"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:background="@drawable/corner"
+            android:gravity="center"
+            android:text="GET STARTED" />
+
+        <Button
+            android:id="@+id/business"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/corner"
+            android:text="Business" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/customer"-->
+<!--        android:layout_width="164dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        android:layout_marginBottom="34dp"-->
+<!--        android:layout_toRightOf="@+id/business"-->
+<!--        android:background="@drawable/corner"-->
+<!--        android:text="User" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619899753206",
+    "firebase_url": "https://live-cleanliness.firebaseio.com",
+    "project_id": "live-cleanliness",
+    "storage_bucket": "live-cleanliness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619899753206:android:ea591329b5a653f0d652d7",
+        "android_client_info": {
+          "package_name": "com.moringaschool.live_cleanliness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619899753206-vjcfso2cv8p81v6pgi97nu9cir3653qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringaschool.live_cleanliness",
+            "certificate_hash": "ee24dc055fc364c0a283b8b3f5626e4fd6b5b45d"
+          }
+        },
+        {
+          "client_id": "619899753206-u09cass2scen3octhg0gkone36j34con.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzE04xduV6BRINTNyC2TuFcjYyIt3dSDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619899753206-u09cass2scen3octhg0gkone36j34con.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

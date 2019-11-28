@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportHeight="500"
+    android:viewportWidth="700"
+    android:width="600dp">
+
+    <gradient android:angle="0"
+        android:startColor="#285FBA"
+        android:endColor="#7535AD"/>
+
+</shape>
+
+
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:viewportHeight="500"-->
+<!--    android:viewportWidth="700"-->
+<!--    android:width="600dp">-->
+<!--<group android:scaleX="0.1"-->
+<!--    android:scaleY="-0.1"-->
+<!--    android:translateY="700">-->
+
+<!--<path android:pathData="">-->
+
+
+<!--</path>-->
+
+<!--</group>-->
+
+
+<!--</vector>-->
+
